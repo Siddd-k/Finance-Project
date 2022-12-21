@@ -1,0 +1,35 @@
+2 cases to be handled for splitting the list at 0.5 fibb level
+    case 1:
+    last portion of data is ingnored
+    
+    case 2:
+    the market is moving sideways
+    if we have 3-4 points in the given range, we have to group them rather than splitting the list
+    Approach:
+    check for the difference near mean point
+    if the point lies in the range and the consecutive difference is less than 10
+     
+
+
+
+
+Fibbonaci Strategy
+
+procedure:
+    define the 0.5 level, it our break even point 
+    group the preceding data at the break even point 
+        expectional cases:
+        -the market is moving sideways 
+        -data succeeding the breakeven point 
+    vectorise the group
+    compare it's cosine similarity for 5 different cases
+
+
+
+40 point strategy - Thursdays
+don't consider the 40 point candle
+
+
+Patter Recognition:
+Bullish englufing 
+Bearish engulfing
